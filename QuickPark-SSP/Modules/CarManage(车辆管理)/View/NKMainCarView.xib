@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="NKMainCarView" id="iN0-l3-epB" customClass="NKMainCarView">
+            <rect key="frame" x="0.0" y="0.0" width="155" height="188"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="默认车辆logo" translatesAutoresizingMaskIntoConstraints="NO" id="Fg5-rK-c6H">
+                    <rect key="frame" x="55.5" y="40" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="6YC-ji-5rI"/>
+                        <constraint firstAttribute="width" constant="44" id="KcL-Fz-GPd"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="主" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="09f-Wd-J1k">
+                    <rect key="frame" x="72.5" y="10" width="10.5" height="10"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="Z7Y-F0-A4W"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="N99999" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ih-XP-dH9">
+                    <rect key="frame" x="41.5" y="94" width="72" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="72" id="chb-PU-jx2"/>
+                        <constraint firstAttribute="height" constant="24" id="vlV-9L-HCe"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="停车场" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vi7-Am-Qno">
+                    <rect key="frame" x="0.0" y="128" width="155" height="10"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="CyV-eN-cUq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="收费及时长" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79V-Nu-Nh5">
+                    <rect key="frame" x="0.0" y="144" width="155" height="10"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="q9Q-JZ-WTV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vi7-Am-Qno" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="4d7-j6-XuU"/>
+                <constraint firstItem="79V-Nu-Nh5" firstAttribute="top" secondItem="vi7-Am-Qno" secondAttribute="bottom" constant="6" id="CPm-pm-YXM"/>
+                <constraint firstItem="vi7-Am-Qno" firstAttribute="top" secondItem="2ih-XP-dH9" secondAttribute="bottom" constant="10" id="Df6-fR-Xo2"/>
+                <constraint firstItem="09f-Wd-J1k" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="PVa-4L-t1l"/>
+                <constraint firstItem="79V-Nu-Nh5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Pw2-I4-Ce1"/>
+                <constraint firstItem="2ih-XP-dH9" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="XQ7-46-HHY"/>
+                <constraint firstAttribute="trailing" secondItem="79V-Nu-Nh5" secondAttribute="trailing" id="d6L-Sx-u0y"/>
+                <constraint firstItem="Fg5-rK-c6H" firstAttribute="top" secondItem="09f-Wd-J1k" secondAttribute="bottom" constant="20" id="dcO-Gx-OMj"/>
+                <constraint firstItem="Fg5-rK-c6H" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="iYw-bF-wWe"/>
+                <constraint firstAttribute="trailing" secondItem="vi7-Am-Qno" secondAttribute="trailing" id="kFb-Pt-1jc"/>
+                <constraint firstItem="09f-Wd-J1k" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="l3Q-tY-SIb"/>
+                <constraint firstItem="2ih-XP-dH9" firstAttribute="top" secondItem="Fg5-rK-c6H" secondAttribute="bottom" constant="10" id="tqi-p3-bBP"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="carBrandImageView" destination="Fg5-rK-c6H" id="E9O-2u-vSg"/>
+                <outlet property="carBrandImageViewAndLicenceLabelSpc" destination="tqi-p3-bBP" id="9hz-hm-Vzt"/>
+                <outlet property="carBrandImageViewHeight" destination="6YC-ji-5rI" id="yMO-IO-lSs"/>
+                <outlet property="carLicenseLabel" destination="2ih-XP-dH9" id="Ko8-jV-1Ci"/>
+                <outlet property="latestParkingNameLabel" destination="vi7-Am-Qno" id="EsC-ZG-dTg"/>
+                <outlet property="latestParkingTimeAndMoneyLabel" destination="79V-Nu-Nh5" id="mQO-5d-u5N"/>
+                <outlet property="topLabel" destination="09f-Wd-J1k" id="Wu5-Uc-RVY"/>
+            </connections>
+            <point key="canvasLocation" x="15.5" y="-54"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="默认车辆logo" width="36" height="36"/>
+    </resources>
+</document>

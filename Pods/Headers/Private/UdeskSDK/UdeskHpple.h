@@ -1,0 +1,1 @@
+../../../UdeskSDK/UdeskSDK/UDChatMessage/UDTools/UDVendor/UDHpple/UdeskHpple.h

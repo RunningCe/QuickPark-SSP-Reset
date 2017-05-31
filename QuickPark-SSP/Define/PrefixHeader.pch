@@ -1,0 +1,99 @@
+//
+//  PrefixHeader.pch
+//  QuickPark-SSP
+//
+//  Created by Nick on 16/8/12.
+//  Copyright © 2016年 Nick. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+
+#pragma mark 界面颜色
+#define COLOR_NAVI_BLACK [UIColor colorWithRed:16.0/255.0 green:15.0/255.0 blue:25.0/255.0 alpha:1.0]
+#define COLOR_TAB_BLACK [UIColor colorWithRed:16.0/255.0 green:15.0/255.0 blue:25.0/255.0 alpha:1.0]
+#define COLOR_VIEW_BLACK [UIColor colorWithRed:20.0/255.0 green:23.0/255.0 blue:26.0/255.0 alpha:1.0]
+#define COLOR_BACKGROUND_BLACK [UIColor colorWithRed:16.0/255.0 green:15.0/255.0 blue:25.0/255.0 alpha:1.0]
+#define COLOR_BACK_BLUE [UIColor colorWithRed:36.0/255.0 green:88.0/255.0 blue:164.0/255.0 alpha:1.0]
+#define COLOR_BACK_GRAY [UIColor colorWithRed:137.0/255.0 green:137.0/255.0 blue:137.0/255.0 alpha:1.0]
+#define COLOR_TITLE_BLACK [UIColor colorWithRed:48.0/255.0 green:48.0/255.0 blue:48.0/255.0 alpha:1.0]
+#define COLOR_BUTTON_BLUE [UIColor colorWithRed:49.0/255.0 green:186.0/255.0 blue:207.0/255.0 alpha:1.0]
+#define COLOR_BUTTON_GREEN [UIColor colorWithRed:119.0/255.0 green:178.0/255.0 blue:65.0/255.0 alpha:1.0]
+#define COLOR_BUTTON_RED [UIColor colorWithRed:204.0/255.0 green:0/255.0 blue:51.0/255.0 alpha:1.0]
+#define COLOR_BUTTON_BLACK [UIColor colorWithRed:20.0/255.0 green:23.0/255.0 blue:36.0/255.0 alpha:1.0]
+#define COLOR_BUTTON_GRAY_DEEP [UIColor colorWithRed:149.0/255.0 green:149.0/255.0 blue:149.0/255.0 alpha:1.0]
+#define COLOR_VIEW_WHITE [UIColor colorWithRed:235.0/255.0 green:234.0/255.0 blue:228.0/255.0 alpha:0.9]
+#define COLOR_TITLE_RED [UIColor colorWithRed:224.0/255.0 green:47.0/255.0 blue:47.0/255.0 alpha:1.0]
+#define COLOR_VIEW_GRAY [UIColor colorWithRed:89.0/255.0 green:86.0/255.0 blue:86.0/255.0 alpha:1.0]
+#define COLOR_TITLE_REDBACK [UIColor colorWithRed:224.0/255.0 green:47.0/255.0 blue:47.0/255.0 alpha:1.0]
+#define COLOR_MAIN_RED [UIColor colorWithRed:204.0/255.0 green:0.0/255.0 blue:51.0/255.0 alpha:1.0]
+#define COLOR_CIRCLE_RED [UIColor colorWithRed:255.0/255.0 green:144.0/255.0 blue:172.0/255.0 alpha:1.0]
+#define COLOR_BORDER_GRAY [UIColor colorWithRed:204.0/255.0 green:204.0/255.0 blue:204.0/255.0 alpha:1.0]
+#define COLOR_HUD_BLACK [UIColor colorWithRed:20.0/255.0 green:23.0/255.0 blue:25.0/255.0 alpha:1.0]
+#define COLOR_TITLE_GRAY [UIColor colorWithRed:135.0/255.0 green:135.0/255.0 blue:135.0/255.0 alpha:1.0]
+#define COLOR_TITLE_WHITE [UIColor colorWithRed:288.0/255.0 green:288.0/255.0 blue:288.0/255.0 alpha:1.0]
+#define COLOR_TITLE_YELLOW [UIColor colorWithRed:255.0/255.0 green:168.0/255.0 blue:0.0/255.0 alpha:1.0]
+//背景色值：#f4f4f4
+#define BACKGROUND_COLOR [UIColor colorWithRed:244.0/255.0 green:244.0/255.0 blue:244.0/255.0 alpha:1.0]
+#define BACKGROUND_COLOR_LIGHT [UIColor colorWithRed:255.0/255.0 green:255.0/255.0 blue:255.0/255.0 alpha:1.0]
+//分隔线色值：#959595
+#define CUTLINE_COLOR [UIColor colorWithRed:149.0/255.0 green:149.0/255.0 blue:149.0/255.0 alpha:1.0]
+//导航栏的高
+#define NAVIGATION_HEIGHT 64
+//界面的宽
+#define WIDTH_VIEW [UIScreen mainScreen].bounds.size.width
+//界面的高
+#define HEIGHT_VIEW [UIScreen mainScreen].bounds.size.height
+//圆角大小
+#define CORNERRADIUS 5
+/******************************************************************************************************/
+#pragma mark 第三方的宏定义
+//*************************第三方的一些宏定义****************************************//
+//********************************微信参数********************************************//
+#define WX_OPEN_ID @"wx4d9259f3fed5cb07"
+#define WX_APPID @"wx4d9259f3fed5cb07"
+#define WX_APPSecret @"1193c7f158c5ec43ced9d0f9e3032d81"
+#define WX_PartnerKey @"rg8mc3w21e701268f3bdc46cfcbb4cf4"
+//********************************QQ参数********************************************//
+
+#define QQ_OPEN_SCHEMA @"tencent1105580781"
+#define QQAppid @"1105580781"
+#define QQAPPkey @"AYEdRMF1wSWRNmhB"
+
+//********************************支付宝********************************************//
+#define AliyPay_OPEN_SCHEMA @"aliypay2016090201837060"
+#define AliyPay_PID @"2088611934924324"
+#define AliyPay_APPID @"2016090201837060"
+#define AliyPay_PRIVATEKEY @""
+//*****************************************高德地图*******************************************//
+//#define GDMapKey @"d3a90ea8586da076611fb926fa808b46"
+#define GDMapKey @"8f0bba02d417f20d52dc14a00076b190"
+//*******************************************个推*********************************************************//
+//#define kGtAppId           @"Zf9vEd5PoE6SmHxUCzmk82"
+//#define kGtAppKey          @"XuSyVxnZEg5zmNOOMFqam2"
+//#define kGtAppSecret       @"Indp9qPqDi6bYCHZow1gX6"
+#define kGtAppId           @"nvGzTVgfLNAKhLgYWOHUi8"
+#define kGtAppKey          @"1Lsv7sOWns65ZUxn9axrI8"
+#define kGtAppSecret       @"s3nHuLnHjMAmaWKTKreq75"
+//*******************************************Udesk*********************************************************//
+#define UdeskAppKey @"2662e50e81c5c011d848204cd808b76f"
+#define UdeskAppID @"6fea690e7ae519bc"
+#define UdeskDomianName @"quickpark.udesk.cn"
+//*************************************tencent bugly******************************************//
+#define BugLyAppid @"900058939"
+
+
+
+
+
+
+
+
+
+
+

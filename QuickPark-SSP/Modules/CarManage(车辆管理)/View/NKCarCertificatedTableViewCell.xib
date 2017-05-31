@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="58" id="KGk-i7-Jjw" customClass="NKCarCertificatedTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="58"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="57"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="默认车辆logo" translatesAutoresizingMaskIntoConstraints="NO" id="1CN-t5-Ut7">
+                        <rect key="frame" x="24" y="8" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="CEO-LF-4x1"/>
+                            <constraint firstAttribute="height" constant="24" id="vX4-TS-X0t"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2d6-of-cDK">
+                        <rect key="frame" x="6" y="34" width="60" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="nxt-EU-F1W"/>
+                            <constraint firstAttribute="width" constant="60" id="r4R-cL-SdN"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YdB-mz-XPZ">
+                        <rect key="frame" x="80" y="16" width="0.0" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="OKj-7U-JpX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N59-Sd-dtr">
+                        <rect key="frame" x="80" y="34" width="0.0" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="36V-w4-JgK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="2d6-of-cDK" firstAttribute="top" secondItem="1CN-t5-Ut7" secondAttribute="bottom" constant="2" id="3L5-Nu-Nwk"/>
+                    <constraint firstItem="YdB-mz-XPZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="8" id="3dz-i7-CNM"/>
+                    <constraint firstItem="YdB-mz-XPZ" firstAttribute="leading" secondItem="1CN-t5-Ut7" secondAttribute="trailing" constant="32" id="AuI-3R-bsS"/>
+                    <constraint firstItem="1CN-t5-Ut7" firstAttribute="centerX" secondItem="2d6-of-cDK" secondAttribute="centerX" id="DNP-9C-Pnc"/>
+                    <constraint firstItem="N59-Sd-dtr" firstAttribute="leading" secondItem="YdB-mz-XPZ" secondAttribute="leading" id="X6x-Q3-fhZ"/>
+                    <constraint firstItem="N59-Sd-dtr" firstAttribute="top" secondItem="YdB-mz-XPZ" secondAttribute="bottom" constant="8" id="eam-7Y-7UY"/>
+                    <constraint firstItem="1CN-t5-Ut7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="exz-Nw-rSj"/>
+                    <constraint firstItem="2d6-of-cDK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="6" id="rYb-qZ-o7B"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="carBrandImageView" destination="1CN-t5-Ut7" id="XZw-xv-P2S"/>
+                <outlet property="carLicenseLabel" destination="2d6-of-cDK" id="jLH-Q7-diH"/>
+                <outlet property="latestParkingNameLabel" destination="YdB-mz-XPZ" id="0WK-F1-18A"/>
+                <outlet property="latestParkingTimeAndMoneyLabel" destination="N59-Sd-dtr" id="mnS-wo-B8h"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="60"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="默认车辆logo" width="36" height="36"/>
+    </resources>
+</document>

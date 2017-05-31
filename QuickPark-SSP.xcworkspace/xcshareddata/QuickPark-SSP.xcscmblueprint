@@ -1,0 +1,51 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F68C5F62E89D9C23C4AE82B6D3AB33BA0AED29E6+++2485E7A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F68C5F62E89D9C23C4AE82B6D3AB33BA0AED29E6+++A8C8369" : 9223372036854775807,
+    "F68C5F62E89D9C23C4AE82B6D3AB33BA0AED29E6+++EDDF421" : 9223372036854775807,
+    "F68C5F62E89D9C23C4AE82B6D3AB33BA0AED29E6+++2485E7A" : 9223372036854775807,
+    "F68C5F62E89D9C23C4AE82B6D3AB33BA0AED29E6+++F230218" : 9223372036854775807,
+    "F68C5F62E89D9C23C4AE82B6D3AB33BA0AED29E6+++9F71DE1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "370F778D-FE34-4A1A-A10A-53286B4B1702",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F68C5F62E89D9C23C4AE82B6D3AB33BA0AED29E6+++A8C8369" : "SSP2.0\/",
+    "F68C5F62E89D9C23C4AE82B6D3AB33BA0AED29E6+++EDDF421" : "..\/SSP2.0\/QuickPark-SSP",
+    "F68C5F62E89D9C23C4AE82B6D3AB33BA0AED29E6+++2485E7A" : "..\/SSP2.0",
+    "F68C5F62E89D9C23C4AE82B6D3AB33BA0AED29E6+++F230218" : "QuickPark-SSP\/",
+    "F68C5F62E89D9C23C4AE82B6D3AB33BA0AED29E6+++9F71DE1" : "..\/SSP2.0\/QuickPark-SSP"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "QuickPark-SSP",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "QuickPark-SSP\/QuickPark-SSP.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/rearview\/SSP2.0.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F68C5F62E89D9C23C4AE82B6D3AB33BA0AED29E6+++2485E7A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/rearview\/QuickPark-SSP.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F68C5F62E89D9C23C4AE82B6D3AB33BA0AED29E6+++9F71DE1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/rearview\/SSP2.0.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F68C5F62E89D9C23C4AE82B6D3AB33BA0AED29E6+++A8C8369"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/rearview\/SSP.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F68C5F62E89D9C23C4AE82B6D3AB33BA0AED29E6+++EDDF421"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/rearview\/QuickPark-SSP.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F68C5F62E89D9C23C4AE82B6D3AB33BA0AED29E6+++F230218"
+    }
+  ]
+}
